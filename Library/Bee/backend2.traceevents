@@ -1,0 +1,280 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1750282563554338, "dur":28526, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750282563582875, "dur":73, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750282563582983, "dur":373, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750282563583503, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/level1.resS" }}
+,{ "pid":12345, "tid":0, "ts":1750282563583378, "dur":2992, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750282563586372, "dur":259884, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750282563846258, "dur":343, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750282563846601, "dur":50, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750282563846651, "dur":51, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750282563846846, "dur":3086, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1750282563583779, "dur":2601, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1750282563586383, "dur":5634, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1750282563627705, "dur":1236, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1750282563628949, "dur":156, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1750282563629135, "dur":18418, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1750282563647889, "dur":181, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player9555fc16-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1750282563628947, "dur":19296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1750282563648644, "dur":95, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1750282563649359, "dur":191294, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1750282563844761, "dur":301, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1750282563844760, "dur":304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1750282563845092, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1750282563583930, "dur":2461, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750282563586394, "dur":1068, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750282563587462, "dur":4608, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750282563592089, "dur":273, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.44f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":2, "ts":1750282563592072, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1750282563666137, "dur":2351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1750282563668586, "dur":8084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750282563687184, "dur":66, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750282563676863, "dur":10425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750282563697653, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750282563687480, "dur":10263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1750282563713747, "dur":234, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750282563697879, "dur":16137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1750282563714110, "dur":132144, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750282563583852, "dur":2533, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750282563586387, "dur":1072, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750282563587460, "dur":4593, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750282563592054, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1750282563602985, "dur":1394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1750282563604455, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.44f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750282563604453, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750282563605067, "dur":12075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750282563622082, "dur":87, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750282563617357, "dur":4824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750282563622311, "dur":3573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750282563625970, "dur":178, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\evill\\GreyForest\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750282563625968, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750282563626172, "dur":5094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750282563631328, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\evill\\GreyForest\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750282563631326, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750282563631480, "dur":3840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750282563635404, "dur":3139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750282563638728, "dur":3877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750282563642806, "dur":10200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750282563653102, "dur":20715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750282563673912, "dur":20198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750282563724788, "dur":686, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750282563694259, "dur":31283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1750282563726540, "dur":119704, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1750282563584003, "dur":2404, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1750282563586412, "dur":1138, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1750282563587551, "dur":4498, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1750282563592052, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1750282563594710, "dur":2159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1750282563596930, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.44f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1750282563596927, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1750282563597472, "dur":1246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1750282563599085, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1750282563600507, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.44f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":4, "ts":1750282563600505, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1750282563600820, "dur":1491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1750282563602357, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1750282563602497, "dur":1669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1750282563604228, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1750282563604828, "dur":1696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1750282563607346, "dur":11645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750282563619144, "dur":3243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750282563622467, "dur":3977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750282563626493, "dur":883, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\evill\\GreyForest\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750282563626492, "dur":888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750282563627410, "dur":5576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750282563633078, "dur":5471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750282563638717, "dur":5069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750282563643887, "dur":4074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750282563648074, "dur":3968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750282563652152, "dur":5756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750282563658010, "dur":8304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750282563666430, "dur":15374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750282563681920, "dur":14959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750282563696984, "dur":26222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1750282563723344, "dur":122896, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750282563584073, "dur":2344, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750282563586420, "dur":1091, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750282563587512, "dur":4531, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750282563592045, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1750282563604634, "dur":1983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1750282563607682, "dur":8444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750282563616297, "dur":4728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750282563621196, "dur":3838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750282563625176, "dur":2847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750282563628100, "dur":435, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\evill\\GreyForest\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750282563628098, "dur":440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750282563628565, "dur":4432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750282563633101, "dur":4562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750282563637741, "dur":3456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750282563641324, "dur":3946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750282563650834, "dur":69, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750282563645385, "dur":5612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750282563651107, "dur":4777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750282563662150, "dur":110, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750282563655986, "dur":6303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750282563662429, "dur":7126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750282563669652, "dur":13239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750282563682987, "dur":73799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1750282563756840, "dur":89421, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750282563584139, "dur":2288, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750282563586430, "dur":1134, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750282563587564, "dur":4476, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750282563592041, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1750282563594477, "dur":2356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1750282563597462, "dur":1221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1750282563598835, "dur":1671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1750282563600787, "dur":1544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1750282563602382, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1750282563602513, "dur":1834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1750282563604451, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.44f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750282563604449, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750282563605008, "dur":3720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750282563609525, "dur":12076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750282563621707, "dur":4137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750282563625954, "dur":438, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\evill\\GreyForest\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750282563625951, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750282563626417, "dur":4455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750282563631005, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\evill\\GreyForest\\Library\\Bee\\PlayerScriptAssemblies\\Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750282563631004, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750282563631157, "dur":4009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750282563635286, "dur":4040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750282563639401, "dur":4454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750282563643984, "dur":12870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750282563656953, "dur":9021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750282563666091, "dur":16092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750282563682495, "dur":7747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":6, "ts":1750282563690351, "dur":29506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1750282563723783, "dur":122476, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1750282563584202, "dur":2235, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1750282563586440, "dur":1088, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1750282563587528, "dur":4509, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1750282563592105, "dur":233, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.44f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1750282563592049, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1750282563628642, "dur":3264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1750282563632054, "dur":5122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750282563637301, "dur":3946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750282563641345, "dur":3222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750282563644650, "dur":5540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750282563650316, "dur":3657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750282563660468, "dur":79, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1750282563654042, "dur":6547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750282563660807, "dur":3558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750282563664519, "dur":16207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750282563681149, "dur":15921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750282563697164, "dur":24527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/level1" }}
+,{ "pid":12345, "tid":7, "ts":1750282563722086, "dur":124161, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1750282563584276, "dur":2169, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1750282563586448, "dur":1160, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1750282563587609, "dur":4442, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1750282563592089, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.44f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1750282563592052, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1750282563604027, "dur":1722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1750282563605803, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1750282563606634, "dur":6736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1750282563613487, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.44f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750282563613481, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750282563613624, "dur":5085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750282563618903, "dur":3305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750282563622323, "dur":3118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750282563625529, "dur":3208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750282563628806, "dur":308, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\evill\\GreyForest\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750282563628804, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750282563629199, "dur":3641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750282563633098, "dur":3799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750282563637054, "dur":3541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750282563640760, "dur":3678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750282563644529, "dur":5454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750282563650150, "dur":4509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750282563654764, "dur":6453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750282563661378, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.44f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750282563661375, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750282563661507, "dur":28156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750282563689784, "dur":15298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1750282563705179, "dur":14871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1750282563720131, "dur":126119, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1750282563584326, "dur":2128, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1750282563586457, "dur":747, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1750282563587205, "dur":4850, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1750282563592061, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1750282563606884, "dur":2799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1750282563609806, "dur":6893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1750282563616840, "dur":5189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1750282563622127, "dur":91, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1750282563622229, "dur":3424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1750282563625736, "dur":146, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\evill\\GreyForest\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1750282563625734, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1750282563625940, "dur":4226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1750282563630232, "dur":679, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\evill\\GreyForest\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1750282563630229, "dur":685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1750282563630940, "dur":4912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1750282563635995, "dur":3066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1750282563639160, "dur":3641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1750282563642957, "dur":3236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1750282563646357, "dur":7009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1750282563653597, "dur":6055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1750282563672755, "dur":348, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1750282563659787, "dur":13345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1750282563685624, "dur":866, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1750282563673327, "dur":13203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1750282563686686, "dur":37598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1750282563724351, "dur":121887, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1750282563584387, "dur":2076, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1750282563586464, "dur":5582, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1750282563592084, "dur":269, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.44f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":10, "ts":1750282563592052, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1750282563647196, "dur":251, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1750282563647521, "dur":3565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1750282563651230, "dur":5044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1750282563656353, "dur":6506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1750282563663024, "dur":19204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1750282563682481, "dur":9761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1750282563693295, "dur":8936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1750282563702376, "dur":16013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1750282563718879, "dur":127381, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1750282563584457, "dur":2014, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1750282563586471, "dur":5560, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1750282563592049, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1750282563603984, "dur":1797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/app.info" }}
+,{ "pid":12345, "tid":11, "ts":1750282563605789, "dur":738, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":11, "ts":1750282563605787, "dur":742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest.exe" }}
+,{ "pid":12345, "tid":11, "ts":1750282563606547, "dur":2455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest.exe" }}
+,{ "pid":12345, "tid":11, "ts":1750282563614606, "dur":103, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1750282563609497, "dur":5262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1750282563614954, "dur":4521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1750282563619637, "dur":3273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1750282563623013, "dur":4195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1750282563627284, "dur":212, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\evill\\GreyForest\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1750282563627282, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1750282563627513, "dur":4211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1750282563631832, "dur":4446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1750282563636416, "dur":3928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1750282563640443, "dur":3742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1750282563644264, "dur":4690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1750282563649140, "dur":2951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1750282563657545, "dur":59, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1750282563652244, "dur":5390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1750282563657758, "dur":6012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1750282563663891, "dur":8778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1750282563672901, "dur":264, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1750282563673185, "dur":12493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1750282563685776, "dur":2070, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1750282563705794, "dur":187, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1750282563687862, "dur":18153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1750282563706152, "dur":17158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1750282563723373, "dur":122862, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1750282563584501, "dur":1975, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1750282563586477, "dur":5557, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1750282563592083, "dur":140, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.44f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1750282563592037, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/evill/OneDrive/Desktop/Grey Forest /UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1750282563592284, "dur":76, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1750282563645172, "dur":3180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1750282563648954, "dur":4677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1750282563653702, "dur":5108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1750282563659221, "dur":8643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1750282563668059, "dur":10159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1750282563678607, "dur":16599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1750282563695616, "dur":16728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1750282563712591, "dur":10837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/evill/OneDrive/Desktop/Grey Forest /Grey Forest_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":12, "ts":1750282563723688, "dur":122548, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750282563853368, "dur":1170, "ph":"X", "name": "ProfilerWriteOutput" }
+,
